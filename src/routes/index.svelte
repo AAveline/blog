@@ -1,10 +1,16 @@
 <svelte:head>
 	<title>Aymeric Aveline - Freelance Developper</title>
+	<meta name="title" content="Aymeric Aveline - Freelance Developper" />
+	<meta property="og:title" content="Aymeric Aveline - Freelance Developper" />
+	<meta property="twitter:title" content="Aymeric Aveline - Freelance Developper" />
+	<meta name="description" content="Developper freelance spécialisé dans le Javascript et son ecosystème."  />
+	<meta property="og:description"  content="Developper freelance spécialisé dans le Javascript et son ecosystème." />
+	<meta property="twitter:description"  content="Developper freelance spécialisé dans le Javascript et son ecosystème." />
 </svelte:head>
 
-	<div>
-		<h1>Hello, <span>i'm Aymeric</span></h1>
-	</div>
+<div>
+	<h1>Hello, <span>i'm Aymeric</span></h1>
+</div>
 
 <style lang="scss">
 	div {

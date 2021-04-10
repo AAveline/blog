@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-	import '../app.scss';
+	import "../app.scss";
 		/**
 	 * @type {import('@sveltejs/kit').Load}
 	 */

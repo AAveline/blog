@@ -44,7 +44,7 @@
   }
 
   article {
-    padding: 24px 8px 24px;
+    padding: 24px;
 
     h2, p {
       margin: 0;
@@ -73,7 +73,6 @@
   }
 
   article:first-child {
-    border-bottom: solid 1px;
     margin-bottom: 24px;
 
     h2 {
@@ -83,5 +82,15 @@
     p {
       font-size: 25px;
     }
+  }
+
+  article:not(:first-child) {
+    width: 50rem;
+    box-shadow: 0 1px 0 0 #ddd;
+  }
+
+  article:hover {
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 12%);
+    border-radius: 8px;
   }
 </style>
